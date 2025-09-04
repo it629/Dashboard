@@ -1,212 +1,220 @@
         <div class="content-body">
-            <!-- row -->
-            <div class="container-fluid">
+             <!--<div class="container-fluid">
+				<div class="row">
 
-                <div class="row">
+  <div class="col-xxl-4 col-lg-6 col-md-12">
+    
+<div class="dash-card dash-hello-card">
+  <div class="dash-hello-left">
+    <h2 class="hello-title">Hello <span class="brand-accent">Priya!!</span></h2>
+    <p class="hello-sub">Happy to see you.</p>
+  </div>
+  <img class="hello-illu" src="images/hello.png" alt="Hello">
+</div>
+
+
+  </div>
+
+  <div class="col-xxl-2 col-lg-3 col-md-6">
+     <div class="dash-card dash-tile top-tile h-100">
+      <div class="dash-tile-title">Prioritized Tasks</div>
+      <div class="dash-tile-line">.logo design</div>
+      <div class="dash-tile-sub">12% Completed</div>
+    </div>
+  </div>
+
+  <div class="col-xxl-2 col-lg-3 col-md-6">
+     <div class="dash-card dash-tile top-tile h-100">
+      <div class="dash-tile-title">Upcoming Events</div>
+      <div class="dash-tile-line">About event</div>
+      <div class="dash-tile-sub">22/09/25</div>
+    </div>
+  </div>
+
+  <div class="col-xxl-2 col-lg-3 col-md-6">
+    <div class="dash-card dash-tile top-tile h-100">
+      <div class="dash-tile-title">Challenges</div>
+      <div class="dash-tile-kpi">02 <span class="dash-tile-sub">Completed</span></div>
+    </div>
+  </div>
+
+  <div class="col-xxl-2 col-lg-3 col-md-6">
+    <div class="dash-card dash-tile top-tile h-100">
+      <div class="dash-tile-title">Refer a friend</div>
+      <div class="dash-tile-line">Link for sharing</div>
+    </div>
+  </div>
+
+  <div class="col-xxl-8 col-lg-8 col-md-12">
+    <div class="dash-card dash-wide">
+      <div class="dash-section-head">
+        <div>
+          <div class="accent-label">Performance Analysis</div>
+          <div class="dash-section-sub">Student performance trends</div>
+        </div>
+        <div class="dash-filter">
+          <span class="me-2">Range :</span>
+          <div class="dropdown">
+            <button class="btn btn-sm btn-outline-light dropdown-toggle" data-bs-toggle="dropdown">Week</button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Week</a></li>
+              <li><a class="dropdown-item" href="#">Month</a></li>
+              <li><a class="dropdown-item" href="#">Quarter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="dash-panel dash-panel--black" id="performanceChart"></div>
+    </div>
+  </div>
+
+  <div class="col-xxl-4 col-lg-4 col-md-12">
+    <div class="dash-card dash-tall">
+      <div class="dash-section-head">
+        <div class="accent-label">Announcemnets</div>
+        <a href="#" class="dash-view">View All ></a>
+      </div>
+      <div class="dash-panel dash-panel--black" id="announcementsList"></div>
+    </div>
+  </div>
+
+  <div class="col-xxl-4 col-lg-4 col-md-6">
+    <div class="dash-card">
+      <div class="accent-label mb-2">Upcoming Classes</div>
+      <div class="dash-panel dash-panel--black dash-inset p-4">
+        <div class="dash-class-title">Designing</div>
+        <div class="dash-class-sub">— Figma</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xxl-4 col-lg-4 col-md-6">
+    <div class="dash-card">
+      <div class="dash-section-head">
+        <div class="accent-label">Case study</div>
+        <a href="#" class="dash-view">View ></a>
+      </div>
+      <div class="dash-panel dash-panel--black dash-inset" id="caseStudy"></div>
+    </div>
+  </div>
+
+  <div class="col-xxl-4 col-lg-4 col-md-12">
+    <div class="dash-card">
+      <div class="accent-label mb-2">TO- DO List</div>
+      <div class="dash-panel dash-panel--black dash-inset p-4">
+        <div>Designing</div>
+        <div class="mt-3">Editing</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xxl-8 col-lg-8 col-md-12">
+    <div class="dash-card dash-wide">
+      <div class="dash-help">
+        <div class="dash-help-copy">
+          <div class="dash-help-title">Need Help?</div>
+          <div class="dash-help-sub">Call your mentor to get  feedback about your recent tasks.</div>
+        </div>
+        <button class="btn btn-accent">Schedule a meet</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xxl-4 col-lg-4 col-md-12">
+    <div class="dash-card">
+      <div class="accent-label">Streak</div>
+      <div class="dash-panel dash-panel--black dash-inset" id="streakChart"></div>
+    </div>
+  </div>
+
+</div> -->
+
+              <div class="row">
 					<div class="col-xl-3 col-xxl-3 col-sm-6">
-						<div class="widget-stat card bg-primary">
-							<div class="card-body">
-								<div class="media">
-									<span class="me-3">
-										<i class="la la-users"></i>
-									</span>
-									<div class="media-body text-white">
-										<p class="mb-1">Total Students</p>
-										<h3 class="text-white">3280</h3>
-										<div class="progress mb-2 bg-white">
-                                            <div class="progress-bar progress-animated bg-white" style="width: 80%"></div>
-                                        </div>
-										<small>80% Increase in 20 Days</small>
-									</div>
-								</div>
-							</div>
+						<div class="widget-stat card dash-hello-card">
+							<div class="dash-card dash-hello-card">
+  <div class="dash-hello-left">
+    <h2 class="hello-title">Hello <span class="brand-accent">Priya!!</span></h2>
+    <p class="hello-sub">Happy to see you.</p>
+  </div>
+  <img class="hello-illu" src="images/hello.png" alt="Hello">
+</div>
 						</div>
                     </div>
 					<div class="col-xl-3 col-xxl-3 col-sm-6">
-						<div class="widget-stat card bg-warning">
+						<div class="widget-stat card bg-custom">
 							<div class="card-body">
 								<div class="media">
-									<span class="me-3">
-										<i class="la la-user"></i>
-									</span>
+								
 									<div class="media-body text-white">
-										<p class="mb-1">New Students</p>
-										<h3 class="text-white">245</h3>
+										<p class="mb-1">Prioritized Tasks</p>
+										<h3 class="text-white">01</h3>
 										<div class="progress mb-2 bg-white">
                                             <div class="progress-bar progress-animated bg-white" style="width: 50%"></div>
                                         </div>
-										<small>50% Increase in 25 Days</small>
+										<small> You Have 2 Prioritized Tasks</small>
 									</div>
 								</div>
 							</div>
 						</div>
                     </div>
+					
 					<div class="col-xl-3 col-xxl-3 col-sm-6">
-						<div class="widget-stat card bg-secondary">
+						<div class="widget-stat card bg-custom">
 							<div class="card-body">
 								<div class="media">
-									<span class="me-3">
-										<i class="la la-graduation-cap"></i>
-									</span>
+									
 									<div class="media-body text-white">
-										<p class="mb-1">Total Course</p>
-										<h3 class="text-white">28</h3>
+										<p class="mb-1">Challenges</p>
+										<h3 class="text-white">01</h3>
 										<div class="progress mb-2 bg-white">
                                             <div class="progress-bar progress-animated bg-white" style="width: 76%"></div>
                                         </div>
-										<small>76% Increase in 20 Days</small>
+										<small>1 out 2 is Done</small>
 									</div>
 								</div>
 							</div>
 						</div>
                     </div>
 					<div class="col-xl-3 col-xxl-3 col-sm-6">
-						<div class="widget-stat card bg-danger">
+						<div class="widget-stat card bg-custom">
 							<div class="card-body">
 								<div class="media">
-									<span class="me-3">
-										<i class="la la-dollar"></i>
-									</span>
+									
 									<div class="media-body text-white">
-										<p class="mb-1">Fees Collection</p>
-										<h3 class="text-white">25160$</h3>
-										<div class="progress mb-2 bg-white">
-                                            <div class="progress-bar progress-animated bg-white" style="width: 30%"></div>
-                                        </div>
-										<small>30% Increase in 30 Days</small>
+										<p class="mb-1">Refer a friend</p>
+										<small>Click here to share a link</small>
 									</div>
 								</div>
 							</div>
 						</div>
                     </div>
-					<div class="col-xl-6 col-xxl-6 col-lg-12 col-sm-12">
+					<div class="col-xl-8 col-xxl-8 col-lg-12 col-sm-12">
 						<div class="card">
 							<div class="card-header">
-								<h3 class="card-title">University Survey</h3>
+								<h3 class="card-title"><span class="brand-accent">Performance Analysis</span></h3>
+								
 							</div>
 							<div class="card-body">
 								<div id="morris_bar_stalked" class="morris_chart_height ltr" style="height: 300px !important;"></div>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-xxl-3 col-sm-6">
+					<div class="col-xl-4 col-xxl-4 col-sm-6">
 						<div class="card">
 							<div class="card-header">
-								<h3 class="card-title">Donught Chart</h3>
+								<h3 class="card-title">Attendance Report</h3>
 							</div>
 							<div class="card-body">
-								<div id="morris_donught_2" class="morris_chart_height ltr" style="height: 300px !important;"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-xxl-3 col-sm-6">
-						<div class="card">
-							<div class="card-header">
-								<h3 class="card-title">University Survey</h3>
-							</div>
-							<div class="card-body">
-								<div id="morris_area" class="morris_chart_height ltr" style="height: 300px !important;"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-md-6">
-						<div class="card">
-							<img class="img-fluid rounded-top" src="images/courses/pic1.jpg" alt="">
-							<div class="card-body">
-								<h4><a href="about-courses.html">When Is the Best Time to Take an Education Course?</a></h4>
-								<ul class="list-group mb-3 list-group-flush">
-									<li class="list-group-item px-0 border-top-0 d-flex justify-content-between"><span class="mb-0">April 23</span>
-										<a href="javascript:void(0);" class="add-wishlist-btn">
-											<i class="la la-heart-o outline"></i>
-											<i class="la la-heart fill"></i>
-											<span>230</span>
-										</a>
-									</li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span class="mb-0">Duration :</span><strong>12 Months</strong></li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span class="mb-0">Professor :</span><strong>Jack Ronan</strong></li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span><i class="fa fa-graduation-cap text-primary me-2"></i>Student</span><strong>+120</strong></li>
-								</ul>
-								<a href="about-courses.html" class="btn btn-primary">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-md-6">
-						<div class="card">
-							<img class="img-fluid rounded-top" src="images/courses/pic2.jpg" alt="">
-							<div class="card-body">
-								<h4><a href="about-courses.html">Education Courses: A Guide to Unlocking Your Potential</a></h4>
-								<ul class="list-group mb-3 list-group-flush">
-									<li class="list-group-item px-0 border-top-0 d-flex justify-content-between"><span class="mb-0">April 23</span>
-										<a href="javascript:void(0);" class="add-wishlist-btn">
-											<i class="la la-heart-o outline"></i>
-											<i class="la la-heart fill"></i>
-											<span>450</span>
-										</a>
-									</li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span class="mb-0">Duration :</span><strong>12 Months</strong></li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span class="mb-0">Professor :</span><strong>Jimmy Morris</strong></li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span><i class="fa fa-graduation-cap text-primary me-2"></i>Student</span><strong>+120</strong></li>
-								</ul>
-								<a href="about-courses.html" class="btn btn-primary">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-md-6">
-						<div class="card">
-							<img class="img-fluid rounded-top" src="images/courses/pic3.jpg" alt="">
-							<div class="card-body">
-								<h4><a href="about-courses.html">A Comprehensive Guide to Taking an Education Course</a></h4>
-								<ul class="list-group mb-3 list-group-flush">
-									<li class="list-group-item px-0 border-top-0 d-flex justify-content-between"><span class="mb-0">April 23</span>
-										<a href="javascript:void(0);" class="add-wishlist-btn">
-											<i class="la la-heart-o outline"></i>
-											<i class="la la-heart fill"></i>
-											<span>120</span>
-										</a>
-									</li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span class="mb-0">Duration :</span><strong>12 Months</strong></li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span class="mb-0">Professor :</span><strong>Konne Backfield</strong></li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span><i class="fa fa-graduation-cap text-primary me-2"></i>Student</span><strong>+120</strong></li>
-								</ul>
-								<a href="about-courses.html" class="btn btn-primary">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-md-6">
-						<div class="card">
-							<img class="img-fluid rounded-top" src="images/courses/pic4.jpg" alt="">
-							<div class="card-body">
-								<h4><a href="about-courses.html">Why Should You Consider Taking an Education Course?</a></h4>
-								<ul class="list-group mb-3 list-group-flush">
-									<li class="list-group-item px-0 border-top-0 d-flex justify-content-between"><span class="mb-0">April 23</span>
-										<a href="javascript:void(0);" class="add-wishlist-btn">
-											<i class="la la-heart-o outline"></i>
-											<i class="la la-heart fill"></i>
-											<span>275</span>
-										</a>
-									</li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span class="mb-0">Duration :</span><strong>12 Months</strong></li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span class="mb-0">Professor :</span><strong>Nashid Martines</strong></li>
-									<li class="list-group-item px-0 d-flex justify-content-between">
-										<span><i class="fa fa-graduation-cap text-primary me-2"></i>Student</span><strong>+120</strong></li>
-								</ul>
-								<a href="about-courses.html" class="btn btn-primary">Read More</a>
+								<canvas id="attendanceChart" class="morris_chart_height ltr" style="height: 300px !important;"></canvas>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-6">
+					
+				
+
+					 <div class="col-lg-6">
 						<div class="card">
                             <div class="card-body">
 								<form action="#" method="post">
@@ -309,7 +317,7 @@
                             </div>
                         </div>
 					</div>
-					<div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
+				<!--	<div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="card">
                             <div class="card-header">
                                 <h4 class="card-title">New Student List</h4>
@@ -400,7 +408,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div>  -->
+                </div> 
             </div>
         </div>

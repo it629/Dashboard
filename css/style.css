@@ -18,7 +18,7 @@
   --secondary: #dc9909;
   --primary-hover: #c48909;
   --primary-light: #ffefcc;
-  --primary-dark: #3945f8;
+  --primary-dark: #EFA70B;
   --rgba-primary-1: rgba(106, 115, 250, 0.1);
   --rgba-primary-2: rgba(106, 115, 250, 0.2);
   --rgba-primary-3: rgba(106, 115, 250, 0.3);
@@ -10281,7 +10281,7 @@ div, span, ol, ul {
     justify-content: center;
     align-items: center;
     font-size: 1.125rem;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: 700; }
   .nav-header .brand-title {
@@ -10515,7 +10515,10 @@ svg.pulse-svg {
   width: 100%; }
 
 [data-header-position="fixed"] .content-body {
-  padding-top: 4.7rem; }
+  padding-top: 4.7rem; 
+padding-left: 20px;
+padding-right: 20px;
+}
 
 [data-header-position="fixed"] .dlabnav {
   margin-top: 0; }
@@ -12880,7 +12883,7 @@ svg.pulse-svg {
 
 [data-nav-headerbg="color_3"][data-theme-version="dark"],
 [data-nav-headerbg="color_3"] {
-  --nav-headbg: #6a73fa; }
+  --nav-headbg: #222222; }
   [data-nav-headerbg="color_3"][data-theme-version="dark"] .nav-header .logo-abbr g rect,
   [data-nav-headerbg="color_3"] .nav-header .logo-abbr g rect {
     fill: #fff; }
@@ -22653,8 +22656,8 @@ span#counter {
 
 [data-theme-version="dark"] {
   --nav-headbg: #212130;
-  --sidebar-bg: #212130;
-  --headerbg: #212130;
+  --sidebar-bg: #222222;
+  --headerbg: #222222;
   --card: #212130;
   --text-dark: #fff;
   --text-gray: #b3b3b3;
@@ -22835,6 +22838,205 @@ span#counter {
 
 /*# sourceMappingURL=style.css.map */
 
+/* ===== Dashboard exact skin ===== */
+:root{
+  --dash-gray:#676767;
+  --dash-black:#000000;
+  --dash-accent:#FDB614;
+  --dash-text:#ffffff;
+  --dash-muted:rgba(255,255,255,.75);
+  --dash-outline:rgba(255,255,255,.10);
+}
+
+/* Generic card shell */
+.dash-card{
+  background:var(--dash-gray);
+  color:var(--dash-text);
+  border-radius:14px;
+  padding:16px 18px;
+  border:1px solid var(--dash-outline);
+  box-shadow:0 8px 16px rgba(0,0,0,.15);
+}
+
+/* Top hello card – black inner with illustration */
+/* === HELLO CARD — final, exact look === */
+.content-body .dash-card.dash-hello-card{
+  background:#ffffff !important;   /* force white */
+  color:#111 !important;
+  border:0;
+  border-radius:18px;
+  padding: 30px 10px;
+  box-shadow:0 12px 28px rgba(0,0,0,.22);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+/* left text */
+.content-body .dash-hello-card .hello-title{
+  margin:0 0 6px 0;
+  font-weight:800;
+  font-size:23px;
+  line-height:1.15;
+}
+.content-body .dash-hello-card .hello-sub{
+  margin:0;
+  font-size:14px;
+  font-weight:700;
+  color:#2b2b2b;
+}
+
+.bg-custom{
+  background-color: #191919;
+  border: 1px solid #5f5f5f;
+}
+/* brand yellow */
+.content-body .dash-hello-card .brand-accent{ color:#FDB614; }
+
+/* right illustration (image element) */
+.content-body .dash-hello-card .hello-illu{
+  width:80px; height:auto; border-radius:14px; display:block;
+}
+
+/* if you had any background/watermark, kill it */
+.content-body .dash-hello-card,
+.content-body .dash-hello-card::before,
+.content-body .dash-hello-card::after{
+  background-image:none !important;
+  opacity:1 !important;
+}
+
+/* mobile */
+@media (max-width:768px){
+  .content-body .dash-card.dash-hello-card{
+    flex-direction:column; align-items:flex-start;
+  }
+  .content-body .dash-hello-card .hello-illu{ width:100%; max-width:220px; }
+}
 
 
+/* Small KPI tiles */
+/* shorter, equal top tiles */
+.dash-card.dash-tile{ padding:14px 18px; }  
+.dash-tile{ min-height:110px; }         
+.dash-tile-kpi{ font-size:30px; }  
 
+.dash-tile-title{font-weight:600;opacity:.9}
+.dash-tile-line{margin-top:6px}
+.dash-tile-sub{font-size:12px;opacity:.8;margin-top:4px}
+.dash-tile-kpi{font-size:28px;font-weight:800}
+
+/* Wide / Tall blocks */
+.dash-wide{padding:18px 18px}
+.dash-tall{min-height:520px}
+
+/* Section header */
+.accent-label{color:var(--dash-accent);font-weight:800;letter-spacing:.2px}
+.dash-section-sub{color:var(--dash-muted)}
+.dash-section-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.dash-view{color:var(--dash-muted);text-decoration:none}
+.dash-view:hover{color:#fff}
+
+/* Black inner panels (charts / lists) */
+.dash-panel{
+  background:#2b2b2b;border-radius:12px;border:1px solid var(--dash-outline);
+}
+.dash-panel--black{background:var(--dash-black)}
+.dash-inset{padding:0;}
+
+/* Exact heights to match mock */
+#performanceChart{height:260px;border-radius:12px;}
+#announcementsList{height:320px;border-radius:12px;}
+#caseStudy{height:200px;border-radius:12px;}
+#streakChart{height:160px;border-radius:12px;}
+/* panels inside content cards */
+.dash-card .dash-panel{margin-top:10px}
+
+/* Filter button look (top-right Week dropdown) */
+.dash-filter .btn{
+  border-color:var(--dash-outline);
+}
+
+/* Help section */
+.dash-help{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.dash-help-title{font-size:20px;font-weight:800;margin-bottom:6px}
+.dash-help-sub{color:var(--dash-muted);max-width:520px}
+.btn-accent{background:var(--dash-accent);color:#1b1b1b;font-weight:800;border:none;border-radius:10px;padding:10px 16px}
+.btn-accent:hover{filter:brightness(.95)}
+
+/* Spacing between rows (visual rhythm like mock) */
+.row > [class*="col-"]{margin-bottom:20px}
+
+/* Responsive polish */
+@media (max-width:1199.98px){
+  .dash-tall{min-height:auto}
+}
+@media (max-width:767.98px){
+  .dash-hello-card{flex-direction:column;align-items:flex-start}
+  .dash-hello-ill{width:100%;height:80px}
+}
+
+/* Ensure "Hello" is visible and not overridden */
+.content-body .dash-hello-card .hello-title { 
+  color: #111 !important; 
+}
+.content-body .dash-hello-card .hello-title .hello-word { 
+  color: #111 !important; 
+  display: inline; 
+}
+.content-body .dash-hello-card .hello-title .brand-accent { 
+  color: #FDB614 !important; 
+}
+
+/* Ensure "Hello" is visible on the white hello card */
+.content-body .dash-hello-card .hello-title,
+.content-body .dash-hello-card .hello-title .hello-word {
+  color:#111 !important;
+}
+
+@media (max-width:1200px){
+  .content-body .dash-hello-card .hello-illu{ flex-basis:140px; width:140px; }
+  .content-body .dash-hello-card .hello-title{ font-size:32px; }
+  .content-body .dash-hello-card .hello-sub{ font-size:20px; }
+}
+@media (max-width:768px){
+  .content-body .dash-hello-card{
+    flex-direction:column; align-items:flex-start; gap:14px;
+  }
+  .content-body .dash-hello-card .hello-illu{ width:120px; flex-basis:120px; }
+}
+
+/* === Equal-size top tiles === */
+.top-tile{
+  /* same width comes from your Bootstrap cols; this forces equal height */
+  min-height: 140px;         /* set the uniform height */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertically center content */
+  align-items: flex-start;   /* left align text */
+  padding: 18px 22px;        /* consistent inner spacing */
+  border-radius: 16px;       /* same rounding on all four */
+}
+
+/* Make the KPI tile (02 Completed) not push height */
+.dash-tile-kpi{ 
+  font-size: 34px; 
+  line-height: 1; 
+  margin: 0;
+}
+.top-tile .dash-tile-sub{ 
+  display: inline-block; 
+  margin-left: 8px; 
+  transform: translateY(1px);
+}
+
+/* Slightly smaller on tighter screens so they still match */
+@media (max-width: 1399.98px){
+  .top-tile{ min-height: 130px; }
+}
+@media (max-width: 991.98px){
+  /* they stack in 2 columns; keep consistency */
+  .top-tile{ min-height: 120px; }
+}
