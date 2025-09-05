@@ -28,6 +28,8 @@
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="vendor/jqvmap/css/jqvmap.min.css">
     <link rel="stylesheet" href="vendor/chartist/css/chartist.min.css">
+    
+	<link href="vendor/fullcalendar/css/fullcalendar.min.css" rel="stylesheet">
     <link rel="stylesheet" href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
     <link class="main-css" rel="stylesheet" href="../css/style.css">
 

@@ -2,17 +2,17 @@
             <div class="dlabnav-scroll">
                 <ul class="metismenu" id="menu">
                     <li class="nav-label first">Main Menu</li>
-                    <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
+                    <li><a class="" href="dashboard" aria-expanded="false">
 							<i class="la la-home"></i>
 							<span class="nav-text">Dashboard</span>
 						</a>
-                        <ul aria-expanded="false">
+                        <!-- <ul aria-expanded="false">
                             <li><a href="index.html">Dashboard 1</a></li>
                             <li><a href="index-2.html">Dashboard 2</a></li>
                             <li><a href="index-3.html">Dashboard 3</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
-					<li><a class="ai-icon" href="event-management.html" aria-expanded="false">
+					<li><a class="ai-icon" href="events" aria-expanded="false">
 							<i class="la la-calendar"></i>
 							<span class="nav-text">Event Management</span>
 						</a>

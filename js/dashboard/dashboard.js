@@ -76,7 +76,7 @@
 				xkey: 'y',
 				ykeys: ['a', 'b'],
 				labels: ['A', 'B'],
-				barColors: ['#1367c8', "#F1F3F7"],
+				barColors: ['#dc9909', "#F1F3F7"],
 				hideHover: 'auto',
 				gridLineColor: 'transparent',
 				resize: true,
@@ -105,7 +105,7 @@
 					value: 20
 				}],
 				resize: true,
-				colors: ['#1367c8', '#1367c8', '#1367c8']
+				colors: ['#EFA70B', '#EFA70B', '#EFA70B']
 			});
 		}
 	}

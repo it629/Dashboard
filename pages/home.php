@@ -206,15 +206,24 @@
 								<h3 class="card-title">Attendance Report</h3>
 							</div>
 							<div class="card-body">
-								<canvas id="attendanceChart" class="morris_chart_height ltr" style="height: 300px !important;"></canvas>
+							<div id="morris_donught_2" class="morris_chart_height ltr" style="height: 300px !important;"></div>
 							</div>
 						</div>
 					</div>
 
 					
-				
+				<div class="col-xl-4 col-xxl-4 col-sm-6">
+						<div class="card">
+							<div class="card-header">
+								<h3 class="card-title">TO-DO List</h3>
+							</div>
+							<div class="card-body">
+							<p>Complete Logo Design by 25-09-2025</p>
+							</div>
+						</div>
+					</div>
 
-					 <div class="col-lg-6">
+					 <!-- <div class="col-lg-6">
 						<div class="card">
                             <div class="card-body">
 								<form action="#" method="post">
@@ -248,8 +257,8 @@
 								</form>
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-6">
+					</div> -->
+					<div class="col-lg-8">
 						<div class="card">
                             <div class="card-header">
                                 <h4 class="card-title">Exam Toppers</h4>
@@ -317,6 +326,8 @@
                             </div>
                         </div>
 					</div>
+
+          		
 				<!--	<div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="card">
                             <div class="card-header">

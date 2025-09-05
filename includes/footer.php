@@ -21,9 +21,12 @@
     <script src="vendor/raphael/raphael.min.js"></script>
     <script src="vendor/morris/morris.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js"></script>
     <!-- Init file -->
     <script src="js/plugins-init/widgets-script-init.js"></script>
 
+    <script src="vendor/fullcalendar/js/fullcalendar.min.js"></script>
+    <script src="js/plugins-init/fullcalendar-init.js"></script>
     <!-- Svganimation scripts -->
     <script src="vendor/svganimation/vivus.min.js"></script>
     <script src="vendor/svganimation/svg.animation.js"></script>
@@ -35,6 +38,7 @@
     <script src="js/dlabnav-init.js"></script>
     <script src="js/demo.js"></script>
     <script src="js/styleSwitcher.js"></script>
+
 
 </body>
 
